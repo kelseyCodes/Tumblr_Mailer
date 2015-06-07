@@ -1,0 +1,28 @@
+  <html>
+  <head><meta charset='utf-8'></head>
+  <body>
+    <p>Hi <%= firstName %>!</p>
+    <br>
+    <p>
+      Hope all is well! It's been <%= numMonthsSinceContact %> months
+      since I've shared my coding blog with you. 
+      This email is actually the result of one of my projects to create a 
+      mailer that customizes an email to my contacts with my blog posts. Cool, huh!?
+    </p>
+    <p>
+      I've been blogging about my experiences at Fullstack on my blog, "Ditz Learns to Code". 
+       Look at my most recent posts:
+         <ul>
+      <% for(var i=0; i<latestPosts.length; i++) {%>
+         <li><a href=<%= latestPosts[i].post_url %> <%= latestPosts[i].title %> </a>  </li>
+      <% } %>
+    </ul>
+ 
+    </p>
+
+    <p>
+      Talk soon,<br>
+      Kelsey
+    </p>
+  </body>
+  </html>
