@@ -11,10 +11,10 @@ var emailTemplate = fs.readFileSync('email_template.ejs', 'utf-8');
 // Authenticate via OAuth
 
 var client = tumblr.createClient({
-  consumer_key: '6DygCKF8rxaQAE3DJWbdaVz8MQRocgIWA7OFGmL56vwz7tZwkH',
-  consumer_secret: 'pUQN4SS8ZEKOKSt4eAt7XVInJIjq2d9pBx73jgq2hVP9RmyaLB',
-  token: 'KhnEEfsoIf4yivcGrvSZYS0ZzRcgWuFfJumqvdZRRGcrIhcBSW',
-  token_secret: 'meNzqbWaMZRNldLaUD9avcFwRykhkDtUU0BwVuSzNfdiTy0guf'
+  consumer_key: 'xxx',
+  consumer_secret: 'xxx',
+  token: 'xxx',
+  token_secret: 'xxx'
 });
 
 
